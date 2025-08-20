@@ -74,11 +74,7 @@ Transformations applied:
 - Added `year_group` column (y1, y2, y3)  
 - Added `rainfall_groups` column (low, medium, high)  
 
-📸 *Screenshots to include:*  
-- SQL queries for profiling  
-- Transformation SQL code  
-- Before vs after dataset preview  
-
+https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-6.png
 ---
 
 ### 6. Bringing Data into Power BI  
