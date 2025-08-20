@@ -82,11 +82,7 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-6.
 - Used account URL & warehouse (`compute_wh`).  
 - Imported transformed dataset & validated in Power Query Editor.  
 
-📸 *Screenshots to include:*  
-- Power BI Snowflake connection dialog  
-- Navigator window with Snowflake tables  
-- Power Query Editor with dataset preview  
-
+https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-7.png
 ---
 
 ### 7. Building the Dashboard  
