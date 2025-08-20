@@ -20,8 +20,7 @@ I created a complete cloud data pipeline that:
 **Architecture Flow:**  
 `AWS S3 (Raw Data Storage) → Snowflake (Data Processing) → Power BI (Analytics & Dashboards)`  
 
-📸 *Architecture Diagram:*  
-(Add your diagram image here)  
+
 
 ---
 
@@ -31,8 +30,7 @@ I created a complete cloud data pipeline that:
 - Created an S3 bucket called `powerbix.project`.  
 - Uploaded dataset `data_season.csv`.  
 
-📸 *Screenshots to include:*  
-- AWS S3 console showing bucket `powerbi.project`  
+https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-1.png
 - File upload confirmation with `data_season.csv`  
 
 ---
