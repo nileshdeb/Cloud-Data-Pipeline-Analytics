@@ -28,7 +28,7 @@ I created a complete cloud data pipeline that:
 ## ⚙️ Step-by-Step Implementation  
 
 ### 1. Setting Up AWS S3 Storage  
-- Created an S3 bucket called `powerbi.project`.  
+- Created an S3 bucket called `powerbix.project`.  
 - Uploaded dataset `data_season.csv`.  
 
 📸 *Screenshots to include:*  
