@@ -40,7 +40,7 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-1.
 - Retrieved ARN for Snowflake integration.  
 
 https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-2.png
-- Attached S3 full access policy  
+
 
 ---
 
@@ -48,9 +48,7 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-2.
 - Created **integration object** `PBI_integration` in Snowflake.  
 - Updated AWS IAM **Trust Policy** with Snowflake ARN & External ID.  
 
-📸 *Screenshots to include:*  
-- Snowflake worksheet with integration SQL code  
-- IAM Trust Policy JSON snippet with Snowflake ARN & External ID  
+https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-3.png
 
 ---
 
