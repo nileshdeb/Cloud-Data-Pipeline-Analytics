@@ -92,12 +92,7 @@ Created a **4-page Power BI report**:
 3. **Humidity Analysis** → Humidity patterns  
 4. **Yield Analysis** → Crop yield performance metrics  
 
-📸 *Screenshots to include:*  
-- Page 1: Rainfall charts  
-- Page 2: Temperature analysis  
-- Page 3: Humidity charts  
-- Page 4: Yield metrics  
-- Power BI navigation pane showing all 4 report pages  
+https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Rainfall%20analysis.png
 
 ---
 
