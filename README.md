@@ -93,6 +93,7 @@ Created a **4-page Power BI report**:
 4. **Yield Analysis** → Crop yield performance metrics  
 
 https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Rainfall%20analysis.png
+https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Temperature%20analysis.png
 
 ---
 
