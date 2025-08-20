@@ -60,11 +60,7 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-3.
 - Created **Stage** object referencing S3.  
 - Used `COPY INTO` to load **3,158 rows**.  
 
-📸 *Screenshots to include:*  
-- Snowflake table structure with DB/Schema/Table  
-- Data preview (3,158 rows loaded)  
-- Successful `COPY INTO` log  
-
+https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-4.png
 ---
 
 ### 5. Data Transformation and Cleaning  
