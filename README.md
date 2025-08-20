@@ -20,8 +20,6 @@ I created a complete cloud data pipeline that:
 **Architecture Flow:**  
 `AWS S3 (Raw Data Storage) → Snowflake (Data Processing) → Power BI (Analytics & Dashboards)`  
 
-
-
 ---
 
 ## ⚙️ Step-by-Step Implementation  
@@ -30,8 +28,7 @@ I created a complete cloud data pipeline that:
 - Created an S3 bucket called `powerbix.project`.  
 - Uploaded dataset `data_season.csv`.  
 
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-1.png
-
+![S3 Upload](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-1.png)
 
 ---
 
@@ -39,8 +36,7 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-1.
 - Created IAM role `powerBI.role` with full S3 access permissions.  
 - Retrieved ARN for Snowflake integration.  
 
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-2.png
-
+![IAM Role](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-2.png)
 
 ---
 
@@ -48,7 +44,7 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-2.
 - Created **integration object** `PBI_integration` in Snowflake.  
 - Updated AWS IAM **Trust Policy** with Snowflake ARN & External ID.  
 
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-3.png
+![Snowflake Integration](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-3.png)
 
 ---
 
@@ -60,8 +56,9 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-3.
 - Created **Stage** object referencing S3.  
 - Used `COPY INTO` to load **3,158 rows**.  
 
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-4.png
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-5.png
+![Snowflake Load 1](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-4.png)  
+![Snowflake Load 2](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-5.png)
+
 ---
 
 ### 5. Data Transformation and Cleaning  
@@ -74,7 +71,8 @@ Transformations applied:
 - Added `year_group` column (y1, y2, y3)  
 - Added `rainfall_groups` column (low, medium, high)  
 
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-6.png
+![Transformations](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-6.png)
+
 ---
 
 ### 6. Bringing Data into Power BI  
@@ -82,7 +80,8 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-6.
 - Used account URL & warehouse (`compute_wh`).  
 - Imported transformed dataset & validated in Power Query Editor.  
 
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-7.png
+![Power BI Import](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-7.png)
+
 ---
 
 ### 7. Building the Dashboard  
@@ -92,9 +91,10 @@ Created a **4-page Power BI report**:
 3. **Humidity Analysis** → Humidity patterns  
 4. **Yield Analysis** → Crop yield performance metrics  
 
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Rainfall%20analysis.png
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Temperature%20analysis.png
-https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Humidity%20analysis.png
+![Rainfall](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Rainfall%20analysis.png)  
+![Temperature](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Temperature%20analysis.png)  
+![Humidity](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Humidity%20analysis.png)  
+![Yield](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Yield%20analysis.png)
 
 ---
 
@@ -121,3 +121,7 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/Humidity%20
 - **Power BI** → Analytics dashboards  
 
 ---
+
+## 📊 Live Dashboard  
+👉 [View Power BI Report]()  
+
