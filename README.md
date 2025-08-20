@@ -120,8 +120,3 @@ Created a **4-page Power BI report**:
 - **Snowflake** → Data warehouse & transformations  
 - **Power BI** → Analytics dashboards  
 
----
-
-## 📊 Live Dashboard  
-👉 [View Power BI Report]()  
-
