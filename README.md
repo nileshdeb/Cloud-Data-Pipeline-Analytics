@@ -31,7 +31,7 @@ I created a complete cloud data pipeline that:
 - Uploaded dataset `data_season.csv`.  
 
 https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-1.png
-- File upload confirmation with `data_season.csv`  
+
 
 ---
 
@@ -39,8 +39,7 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-1.
 - Created IAM role `powerBI.role` with full S3 access permissions.  
 - Retrieved ARN for Snowflake integration.  
 
-📸 *Screenshots to include:*  
-- IAM role summary page with ARN visible  
+https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-2.png
 - Attached S3 full access policy  
 
 ---
