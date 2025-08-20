@@ -61,6 +61,7 @@ https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-3.
 - Used `COPY INTO` to load **3,158 rows**.  
 
 https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-4.png
+https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/snapshot-5.png
 ---
 
 ### 5. Data Transformation and Cleaning  
