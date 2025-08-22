@@ -18,7 +18,8 @@ I created a complete cloud data pipeline that:
 - Visualizes it through **Power BI dashboards**  
 
 **Architecture Flow:**  
-`AWS S3 (Raw Data Storage) → Snowflake (Data Processing) → Power BI (Analytics & Dashboards)`  
+`AWS S3 (Raw Data Storage) → Snowflake (Data Processing) → Power BI (Analytics & Dashboards)` 
+![Pipeline Architecture](https://github.com/nileshdeb/Cloud-Data-Pipeline-Analytics/blob/main/pipeline_Architecture%20Flow.png)
 
 ---
 
